@@ -17,6 +17,7 @@ live</h2></a>
   Vid djupvik finns en gästhamn och badplats och är en plats dit man hoppas locka besökare.
 </p>
 
+<h2>Designspecifikation</h2>
 <h3>Målet med hemsidan</h3>
 <p>Djupviks Hamn är både ett fiskeläge och en förening. Föreningen består av 
 dels ägarna till fiskelägets bodar men också andra som är intresserade av 
@@ -61,7 +62,6 @@ och vår mailadress: info@djupvikshamn.se
 
 Vi vill ha in många bilder, både som förtydligande av texten men också för 
 att visa upp hur vackert det är. 
-
 </p>
 
 <h2>Reflektioner</h2>
