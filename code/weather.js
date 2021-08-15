@@ -13,7 +13,6 @@ const wind = document.getElementById("wind")
 const description = document.getElementById('description');
 
 const weatherToday = await getWeather();
-
 const Weather = new WeatherShowing(weatherToday.length)
 
 const renderWeather = () => {
@@ -39,7 +38,6 @@ wind.innerText = `${parameterList[ws].values[0]} ${parameterList[ws].unit}` + " 
 }
 
 renderWeather()
-
 
 nextBtn.addEventListener("click", () => {Weather.increase(), renderWeather()})
 prevBtn.addEventListener("click", () => {Weather.decrease(), renderWeather()})
