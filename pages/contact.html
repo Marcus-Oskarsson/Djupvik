@@ -50,7 +50,12 @@
 
     <main class="main-about">
       <section class="contact">
-        <form class="contact-form" method="post" netlify>
+        <form
+          class="contact-form"
+          method="post"
+          name="Kontakta föreningen"
+          netlify
+        >
           <h2>Skriv till föreningen</h2>
           <ul>
             <li>
@@ -82,17 +87,17 @@
                       type="radio"
                       name="Ämne"
                       id="mooring"
-                      value="mooring"
+                      value="Båtplats"
                       required
                     />
                   </li>
                   <li>
-                    <label for="member">Medlemsärende</label>
+                    <label for="member">Medlemsskap</label>
                     <input
                       type="radio"
                       name="Ämne"
                       id="member"
-                      value="membership"
+                      value="Medlemsskap"
                     />
                   </li>
                   <li>
@@ -112,7 +117,7 @@
                       type="radio"
                       name="Kantaktsätt"
                       id="email"
-                      value="email"
+                      value="E-post"
                       required
                     />
                   </li>
@@ -122,7 +127,7 @@
                       type="radio"
                       name="Kantaktsätt"
                       id="phone"
-                      value="phone"
+                      value="Telefon"
                     />
                   </li>
                   <li>
@@ -131,7 +136,7 @@
                       type="radio"
                       name="Kantaktsätt"
                       id="no-contact"
-                      value="noContact"
+                      value="Inte alls"
                     />
                   </li>
                 </ul>
