@@ -488,8 +488,12 @@ footer > a {
 
   header {
     background-image: url('../assets/images/background.jpg');
+
     display: flex;
     flex-direction: row;
+    width: 100%;
+    max-width: 170rem;
+    align-self: center;
   }
 
   .logo {
@@ -512,7 +516,7 @@ footer > a {
     right: 0;
     align-items: center;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     height: 100%;
   }
 
@@ -533,6 +537,16 @@ footer > a {
 
   #hamburger {
     display: none;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    max-width: 170rem;
+    align-self: center;
   }
 
   main > section {
