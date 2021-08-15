@@ -547,11 +547,13 @@ footer > a {
   main {
     max-width: 170rem;
     align-self: center;
+    width: 100%;
   }
 
   main > section {
     padding: 0 13rem;
     border-left: 3px ridge rgba(250, 247, 247, 20%);
     border-right: 3px groove rgba(250, 247, 247, 20%);
+    max-width: none;
   }
 }
