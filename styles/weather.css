@@ -1,0 +1,7 @@
+.weather-container {
+  background-color: aliceblue;
+  width: max-content;
+  padding: 2rem;
+  border: 3px solid rgb(225, 237, 248);
+  box-shadow: 6px 4px aliceblue;
+}

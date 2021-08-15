@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <script src="../code/app.js" type="module"></script>
+    <title>Kontakta oss | Djupviks Hamnförening</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="./contact.html">
+        <img src="../assets/images/anchor-logo.svg" alt="" />
+        <h1>Kontakt</h1>
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a class="navigation" href="../index.html">Hem</a>
+          </li>
+          <li>
+            <a class="navigation" href="./history.html">Historia</a>
+          </li>
+          <li>
+            <a class="navigation" href="./visitor.html">Gästplatser</a>
+          </li>
+          <li>
+            <a class="navigation" href="./tourist.html">Turistmål</a>
+          </li>
+          <li>
+            <a class="navigation" href="./member.html">Medlemsinfo</a>
+          </li>
+          <li>
+            <a class="navigation active" href="./contact.html">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a id="hamburger" role="button">
+        <i class="fa fa-bars"></i>
+      </a>
+    </header>
+
+    <main class="main-about">
+      <section class="contact">
+        <form class="contact-form" action="#" method="post">
+          <h2>Skriv till föreningen</h2>
+          <ul>
+            <li>
+              <label for="form-title">Rubrik</label>
+              <input type="text" id="form-title" required />
+            </li>
+            <li>
+              <label for="form-description">Beskriv ditt ärende</label>
+              <textarea id="form-description" required></textarea>
+            </li>
+            <li>
+              <fieldset>
+                <legend>Vad gäller ärendet?</legend>
+                <ul class="radio-list">
+                  <li>
+                    <label for="mooring">Båtplats</label>
+                    <input
+                      type="radio"
+                      name="form-about"
+                      id="mooring"
+                      value="mooring"
+                      required
+                    />
+                  </li>
+                  <li>
+                    <label for="member">Medlemsärende</label>
+                    <input
+                      type="radio"
+                      name="form-about"
+                      id="member"
+                      value="membership"
+                    />
+                  </li>
+                  <li>
+                    <label for="other">Övrigt</label>
+                    <input
+                      type="radio"
+                      name="form-about"
+                      id="other"
+                      value="other"
+                    />
+                  </li>
+                </ul>
+              </fieldset>
+            </li>
+            <li>
+              <fieldset>
+                <legend>Hur vill du bli kontaktad?</legend>
+                <ul class="radio-list">
+                  <li>
+                    <label for="email">E-post</label>
+                    <input
+                      type="radio"
+                      name="form-contact"
+                      id="email"
+                      value="email"
+                      required
+                    />
+                  </li>
+                  <li>
+                    <label for="phone">Telefon</label>
+                    <input
+                      type="radio"
+                      name="form-contact"
+                      id="phone"
+                      value="phone"
+                    />
+                  </li>
+                  <li>
+                    <label for="no-contact">Inte alls</label>
+                    <input
+                      type="radio"
+                      name="form-contact"
+                      id="no-contact"
+                      value="noContact"
+                    />
+                  </li>
+                </ul>
+              </fieldset>
+            </li>
+            <li>
+              <label for="form-phone-number">Telefonnummer</label>
+              <input type="tel" id="form-phone-number" />
+            </li>
+            <li>
+              <label for="form-email-address">E-post</label>
+              <input type="email" id="form-email-address" />
+            </li>
+            <li>
+              <input type="submit" name="submit" value="Skicka" class="btn" />
+            </li>
+          </ul>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <address>
+        Djupviks hamnförening<br />
+        c/o Ekholm<br />
+        Eksta Hägur 170<br />
+        623 54 Klintehamn<br />
+      </address>
+      <a href="mailto:info@djupvikshamn.se">info@djupvikshamn.se</a>
+      <p>&copy; Djupviks Hamnförening 2021</p>
+    </footer>
+  </body>
+</html>

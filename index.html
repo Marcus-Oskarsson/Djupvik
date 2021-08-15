@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./code/app.js" type="module"></script>
+    <title>Djupviks hamnförening</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="/index.html">
+        <img src="../assets/images/anchor-logo.svg" alt="" />
+        <h1>Djupviks hamn</h1>
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a class="navigation active" href="/index.html">Hem</a>
+          </li>
+          <li>
+            <a class="navigation" href="./pages/history.html">Historia</a>
+          </li>
+          <li>
+            <a class="navigation" href="./pages/visitor.html">Gästplatser</a>
+          </li>
+          <li>
+            <a class="navigation" href="./pages/tourist.html">Turistmål</a>
+          </li>
+          <li>
+            <a class="navigation" href="./pages/member.html">Medlemsinfo</a>
+          </li>
+          <li>
+            <a class="navigation" href="./pages/contact.html">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a id="hamburger" role="button">
+        <i class="fa fa-bars"></i>
+      </a>
+    </header>
+
+    <main>
+      <section class="information">
+        <h2>UPPTÄCK GOTLANDS VÄSTKUST</h2>
+        <p>
+          Djupviks hamn ligger på Gotlands västkust nästan rakt öster om Lilla
+          Karlsö. Hamnen är otroligt vackert belägen i anslutning till ett
+          gammalt Gotländskt fiskeläge bestående av fiskebodar från sent
+          1800-tal. Husen är grupperade i tre rader, mellan dem ligger
+          gistgarden där man torkar nät och närmast stranden ligger båthusen.
+          Från fiskeläget har man fri utsikt mot de båda Karlsöarna. Ansvaret
+          för hamnen och fiskeläget har Djupviks hamnförening, som är en ideell
+          förening som aktivt verkar för att bibehålla och utveckla Djupvik som
+          fiskehamn och som fritidsbåtshamn för de många närboende och
+          sommarboende. Föreningen driver en glasskiosk och kaffeservering på
+          sommartid i ett gammalt båthus vid hamnen. Ett par hundra meter
+          ovanför hamnen ligger Djupviks Hotell, ett hotell med restaurang och
+          bra standard. Det finns även toaletter i hamnen varav en som är
+          tillgänglighetsanpassad för rullstolar och rollatorer.
+        </p>
+      </section>
+      <section class="news">
+        <h2>SENASTE NYTT</h2>
+        <article class="news-article">
+          <h3>Hamnjobb</h3>
+          <p><time datetime="2019-04-06" class="small">2019-04-06</time></p>
+          <p>
+            Lördagen den 6 april samlades ett antal av föreningens medlemmar för
+            arbete i hamnen. Kiosken, kajerna och stranden städades. Kajer
+            lagades och gräs brändes. Diverse fix på många håll. Vädret var bra
+            och korven god. Det som återstår inför säsongen är att ta bort släke
+            från stranden, att sätta upp ramp vid kiosken och att fylla kiosken
+            med varor.
+          </p>
+        </article>
+        <article class="news-article-img">
+          <h3>Succé för hamnens dag!</h3>
+          <p><time datetime="2018-07-16" class="small">2018-07-16</time></p>
+          <p>
+            Lördagen den 16 juli arrangerade föreningen Djupviks hamn i Eksta
+            ”Hamnens dag” i Djupvik. Vårt arbete har med åren alltmer också
+            inriktats på att alla besökare, även de som kommer landvägen skall
+            trivas i det vackra hamnområdet. Nu bjöds det in till ”Hamnens dag”.
+            På plats fanns sjöfartsverkets SAR-helikopter, Sjöräddningens båt
+            Hwitstjärna, släckningsbil från räddningstjänsten i Klintehamn, russ
+            från Gannarve och ett antal loppisförsäljare. Aktiviteten lockade
+            ett stort antal besökare. Uppskattningsvis 1000 besökare sökte sig
+            under dagen till Djupvik. Intresset var stort för de besökande
+            organisationerna som informerade och alla fick möjlighet att titta
+            och ställa frågor. Barnen fick rida, de bjöds på bulle och dricka
+            och många prövade lyckan i fiskdammen. Det fanns möjlighet att
+            handla kaffe, korv, dricka och glass. Många dröjde sig kvar i
+            hamnområdet och trivdes i det inledningsvis lite blåsiga men vackra
+            vädret.
+          </p>
+          <figure>
+            <img
+              src="./assets/images/HamnensDag.jpg"
+              alt="Flera besökare är samlade och solen skiner under hamnens dag."
+            />
+            <figcaption class="small">Foto: Björn Hjernquist</figcaption>
+          </figure>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <address>
+        Djupviks hamnförening<br />
+        c/o Ekholm<br />
+        Eksta Hägur 170<br />
+        623 54 Klintehamn<br />
+      </address>
+      <a href="mailto:info@djupvikshamn.se">info@djupvikshamn.se</a>
+      <p>&copy; Djupviks Hamnförening 2021</p>
+    </footer>
+  </body>
+</html>

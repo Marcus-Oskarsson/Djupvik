@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/weather.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <script src="../code/weather.js" type="module"></script>
+    <script src="../code/app.js" type="module"></script>
+    <title>Gästplatser | Djupviks Hamnförening</title>
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="./visitor.html">
+        <img src="../assets/images/anchor-logo.svg" alt="" />
+        <h1>Djupviks gästhamn</h1>
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a class="navigation" href="../index.html">Hem</a>
+          </li>
+          <li>
+            <a class="navigation" href="./history.html">Historia</a>
+          </li>
+          <li>
+            <a class="navigation active" href="./visitor.html">Gästplatser</a>
+          </li>
+          <li>
+            <a class="navigation" href="./tourist.html">Turistmål</a>
+          </li>
+          <li>
+            <a class="navigation" href="./member.html">Medlemsinfo</a>
+          </li>
+          <li>
+            <a class="navigation" href="./contact.html">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a id="hamburger" role="button">
+        <i class="fa fa-bars"></i>
+      </a>
+    </header>
+
+    <main>
+      <section class="visitor-section">
+        <h2>HAMNEN ÄR ÖPPEN FÖR BESÖKARE</h2>
+        <p>Gästbåtar är hjärtligt välkomna!</p>
+        <p>
+          Vid normalvattendjup är djupet 3 meter i huvuddelen av hamnen. Vatten
+          och el finns utdraget på kajerna. I land kan vi erbjuda ett modernt
+          servicehus med WC, dusch och tvättmaskin.
+        </p>
+        <p>Ring gärna hamnfogden för att få reda på aktuellt läge.</p>
+        <ul>
+          <li><p>Dygnshyra 150:- /dygn*</p></li>
+          <li><p>El-anslutning 50:-/dygn</p></li>
+        </ul>
+        <small class="small">
+          *inkluderat kort för tillträde till servicehuset och 20:- för två
+          duschar
+        </small>
+        <p>
+          Hamnfogde Bo Lautin Mobil:
+          <a class="phone-link" href="tel:0707920310">0707 - 92 03 10</a>
+        </p>
+      </section>
+      <section class="weather">
+        <h2>VÄDER</h2>
+        <div id="weather-container" class="weather-container">
+          <p id="date-time"></p>
+          <p id="description"></p>
+          <p id="temp"></p>
+          <p id="wind"></p>
+          <input type="button" id="prev-btn" value="Bakåt" class="btn" />
+          <input type="button" id="next-btn" value="Nästa" class="btn" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <address>
+        Djupviks hamnförening<br />
+        c/o Ekholm<br />
+        Eksta Hägur 170<br />
+        623 54 Klintehamn<br />
+      </address>
+      <a href="mailto:info@djupvikshamn.se">info@djupvikshamn.se</a>
+      <p>&copy; Djupviks Hamnförening 2021</p>
+    </footer>
+  </body>
+</html>
