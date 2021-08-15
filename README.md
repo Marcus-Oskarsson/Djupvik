@@ -63,3 +63,6 @@ Vi vill ha in många bilder, både som förtydligande av texten men också för
 att visa upp hur vackert det är. 
 
 </p>
+
+<h2>Reflektioner</h2>
+<p></p>
