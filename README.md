@@ -8,7 +8,7 @@
 </ul>
 
 <h2>Se hemsidan
-live</h2><a href="https://dreamy-meninsky-673088.netlify.app/">https://dreamy-meninsky-673088.netlify.app/</a>
+live</h2><a href="https://djupvik-hamnforening.netlify.app/">https://djupvik-hamnforening.netlify.app/</a>
 
 <h2>Beskrivning</h2>
 <p>En hemsidan för Djupviks hamnförening.
