@@ -27,7 +27,7 @@ const renderWeather = () => {
   const datum = new Date(weatherToday[currentWeather].validTime)
 
 // dateTime.innerHTML =`<time>${datum.toLocaleString('sv-SE', { timeZone: 'Europe/Stockholm' })}</time>`
-
+console.log("Nuvarande datum: ", datum.getDate())
 dateTime.innerText = `${nameOfDay[datum.getDay()]} ${datum.getDate()}${dateEnding(datum.getDate())} ${nameOfMonth[datum.getMonth()]} kl. ${datum.getHours()}`
 
 //Väderbeskrivning
