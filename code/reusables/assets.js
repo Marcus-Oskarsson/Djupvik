@@ -69,3 +69,38 @@ export const getWindDirection = (deg) => {
     }
     return direction;
   };
+
+  export const nameOfDay = {
+    1: "Måndag",
+    2: "Tisdag", 
+    3: "Onsdag",
+    4: "Torsdag",
+    5: "Fredag", 
+    6: "Lördag",
+    7: "Söndag",
+  }
+
+  export const nameOfMonth = {
+    0: "Jan",
+    1: "Fen",
+    2: "Mar", 
+    3: "Apr",
+    4: "Maj",
+    5: "Jun", 
+    6: "Jul",
+    7: "Aug",
+    8: "Sep", 
+    9: "Okt", 
+    10: "Nov", 
+    11: "Dec"
+  }
+
+  export const dateEnding = (date) => {
+    if (date[-1] <= 2) {
+      return "a"
+    }
+      else {
+        return "e"
+      }
+    }
+  

@@ -1,4 +1,7 @@
 import { descriptions } from './reusables/assets.js'
+import { nameOfDay } from './reusables/assets.js'
+import { nameOfMonth } from './reusables/assets.js';
+import { dateEnding } from './reusables/assets.js';
 import { getWindSpeed } from './windSpeed.js'
 import { getWindDirection } from './windDirection.js';
 import { getWeather } from './requestWeather.js';
@@ -23,7 +26,9 @@ const renderWeather = () => {
   const wd = findIndex(parameterList, "wd")
   const datum = new Date(weatherToday[currentWeather].validTime)
 
-dateTime.innerHTML =`<time>${datum.toLocaleString('sv-SE', { timeZone: 'Europe/Stockholm' })}</time>`
+// dateTime.innerHTML =`<time>${datum.toLocaleString('sv-SE', { timeZone: 'Europe/Stockholm' })}</time>`
+
+dateTime.innerText = `${nameOfDay[datum.getDay()]} ${datum.getDate()}${dateEnding(datum.getDate())} ${nameOfMonth[datum.getMonth()]} kl. ${datum.getHours()}`
 
 //Väderbeskrivning
 description.innerText = descriptions[parameterList[18].values[0]];

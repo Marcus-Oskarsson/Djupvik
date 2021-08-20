@@ -50,12 +50,7 @@
 
     <main class="main-about">
       <section class="contact">
-        <form
-          class="contact-form"
-          method="post"
-          name="Kontakta föreningen"
-          netlify
-        >
+        <form class="contact-form" method="post" name="form_contact" netlify>
           <h2>Skriv till föreningen</h2>
           <ul>
             <li>
@@ -63,7 +58,7 @@
               <input
                 type="text"
                 id="form-title"
-                name="Rubrik"
+                name="form_title"
                 value=""
                 required
               />
@@ -72,7 +67,7 @@
               <label for="form-description">Beskriv ditt ärende</label>
               <textarea
                 id="form-description"
-                name="Ärendebeskrivning"
+                name="form_description"
                 value=""
                 required
               ></textarea>
@@ -85,7 +80,7 @@
                     <label for="mooring">Båtplats</label>
                     <input
                       type="radio"
-                      name="ArendetHandlarOm"
+                      name="form_about"
                       id="mooring"
                       value="Botplats"
                       required
@@ -95,7 +90,7 @@
                     <label for="member">Medlemsskap</label>
                     <input
                       type="radio"
-                      name="ArendetHandlarOm"
+                      name="form_about"
                       id="member"
                       value="Medlemsskap"
                     />
@@ -104,7 +99,7 @@
                     <label for="other">Övrigt</label>
                     <input
                       type="radio"
-                      name="ArendetHandlarOm"
+                      name="form_about"
                       id="other"
                       value="Annat"
                     />
@@ -113,14 +108,14 @@
               </fieldset>
             </li>
             <li>
-              <fieldset>
+              <fieldset id="radio-test">
                 <legend>Hur vill du bli kontaktad?</legend>
                 <ul class="radio-list">
                   <li>
                     <label for="email">E-post</label>
                     <input
                       type="radio"
-                      name="KontaktVia"
+                      name="form_contact_by"
                       id="email"
                       value="E-post"
                       required
@@ -130,7 +125,7 @@
                     <label for="phone">Telefon</label>
                     <input
                       type="radio"
-                      name="KontaktVia"
+                      name="form_contact_by"
                       id="phone"
                       value="Telefon"
                     />
@@ -139,7 +134,7 @@
                     <label for="no-contact">Inte alls</label>
                     <input
                       type="radio"
-                      name="KontaktVia"
+                      name="form_contact_by"
                       id="no-contact"
                       value="Inte alls"
                     />
@@ -152,8 +147,8 @@
               <input
                 type="tel"
                 id="form-phone-number"
-                name="Telefonnummer"
-                value=""
+                name="form_phone_number"
+                value="Telefon"
               />
             </li>
             <li>
@@ -161,8 +156,8 @@
               <input
                 type="email"
                 id="form-email-address"
-                name="E-post"
-                value=""
+                name="form_email"
+                value="E-post"
               />
             </li>
             <li>
