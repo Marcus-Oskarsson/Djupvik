@@ -17,6 +17,18 @@ live</h2><a href="https://djupvik-hamnforening.netlify.app/">https://djupvik-ham
   Vid djupvik finns en gästhamn och badplats och är en plats dit man hoppas locka besökare.
 </p>
 
+<h2>Reflektioner</h2>
+<p>
+Samtidigt som det absolut tuffaste med projektet var att det var större än mina tidigare projekt var det också det mest lärorika med det. Innan har jag bara gjort mindre hemsidor med tydliga avgränsningar utifrån det jag velat lära mig för stunden. Jag fick en känsla av att det är först när ett projekt blir lite större som det blir tydligt vad som fungerar och inte - I frågra om mappstruktur, klassnamn, planering och kodrenhet. Först nu såg jag till exempel verkligen fördelarna med att tydligt dela upp Javascript-koden (trots att det är väldigt lite JavaScript på sidan). 
+</p>
+
+<h2>Vad hade jag velat förbättra?</h2>
+<p>
+  Samtidigt som jag valde att hålla sidans design simpel och nedskalad så kan den förbättras. 
+  Bakgrundsbilden för de olika sidorna skulle kunna vara olika, men då behövs också fler högupplösta passande foton. Vilket inte fanns till hands.
+  Hemsidan är byggd med ett tillgänglighetstänk och en viktig sak som saknas är hur formuläret ser ut vid fel input. Det hade varit snyggt om formuläret visade tydligt när man angett input på tillfredsställande vis samt att det tydligare framgår vilka fält som är obligatoriska.
+</p>
+
 <h2>Designspecifikation</h2>
 <h3>Målet med hemsidan</h3>
 <p>Djupviks Hamn är både ett fiskeläge och en förening. Föreningen består av 
@@ -64,5 +76,4 @@ Vi vill ha in många bilder, både som förtydligande av texten men också för
 att visa upp hur vackert det är. 
 </p>
 
-<h2>Reflektioner</h2>
-<p></p>
+
