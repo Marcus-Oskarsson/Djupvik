@@ -60,7 +60,7 @@ och kolla ofta in om de kan hitta sajter som berättar om spännande platser
 och upplevelser på den ort man är på väg till. Hon har en Macbook air som 
 hon använder hemma, men på resorna så är det Ipad och Iphone som 
 gäller för att hålla koll, boka och göra ändringar i resandet. </p>
-<h2>Innehåll</h2>
+<h3>Innehåll</h3>
 <p>Sajten ska innehålla bilder som visar den vackra plats som Djupvik är, med 
 text som berättar dess historia, korta berättelser om vad som varit och vad 
 som är på gång. Information om gästhamnen och kostnaderna för båtplats, 
